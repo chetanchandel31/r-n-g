@@ -46,7 +46,7 @@ const setValuesFromLocalStorage = () => {
     minVal = lsMinVal;
     minValEl.value = lsMinVal;
   }
-  if (maxVal) {
+  if (lsMaxVal) {
     maxVal = lsMaxVal;
     maxValEl.value = lsMaxVal;
   }
